@@ -1,16 +1,22 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+#__next,
+#__next>div {
+    height: 100%;
+    font-family: "Fjalla One", sans-serif;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+    background-color: #eee;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-family: "Fjalla One", sans-serif;
+    background-image: url("/a19fe695998927.5ea4615ac25e7.jpg");
+    background-size: 2500px;
+    background-position: 68% 3%;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    margin: 0;
 }
